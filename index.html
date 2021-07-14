@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+
+        <!-- *************************************************************************
+            Some kind of title bar
+        -->
+        <h2>Sign up now!</h2>
+        <h5>Sign up now and tell us what you think of this site!</h5>
+
+        <!-- *************************************************************************
+            Where do you live, we need yor address!
+        -->
+        <legend><span>1</span>Name & Address</legend>
+        <fieldset id="address-data">
+            <label for="name">Your Full Name</label><br>
+            <input type="text" name="name" id="name" placeholder="Your Full Name"><br>
+
+            <label for="name">Address</label><br>
+            <textarea name="" id="address" rows="2" placeholder="Address"></textarea>
+        </fieldset>
+
+        <!-- *************************************************************************
+            How can we contact you, phone, email or both?
+        -->
+        <legend><span>2</span>Email & Phone</legend>
+        <fieldset id="contact-data">
+            <label for="email">Your Full Name</label><br>
+            <input type="email" name="email" id="email" placeholder="Email Address"><br>
+
+            <label for="phone">Phone Number</label><br>
+            <input type="phone" name="phone" id="phone" placeholder="Phone Number">
+        </fieldset>
+
+        <!-- *************************************************************************
+            New password and password confirmation
+        -->
+        <legend><span>3</span> Passwords</legend>
+        <fieldset id="passwords">
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" placeholder="Password"><br>
+
+            <label for="confirm">Confirm Password</label><br>
+            <input type="password" name="confirm" id="confirm" placeholder="Confirm Password">
+        </fieldset>
+
+        <!-- *************************************************************************
+            Submit button / agree to terms and policy
+        -->
+        <fieldset>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+            <div>
+                <input type="checkbox" name="termspolicy" id="termspolicy">
+                <label for="">You agree to our Terms and Policy</label>
+            </div>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
