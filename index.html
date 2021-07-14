@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <form action="">
+    <form>
 
         <!-- *************************************************************************
             Some kind of title bar
@@ -23,31 +23,31 @@
         <!-- *************************************************************************
             Where do you live, we need yor address!
         -->
-        <legend><span>1</span>Name & Address</legend>
+        <p><span>1</span>Name & Address</p>
         <fieldset id="address-data">
             <label for="name">Your Full Name</label><br>
             <input type="text" name="name" id="name" placeholder="Your Full Name"><br>
 
-            <label for="name">Address</label><br>
-            <textarea name="" id="address" rows="2" placeholder="Address"></textarea>
+            <label for="address">Address</label><br>
+            <textarea name="address" id="address" rows="2" placeholder="Address"></textarea>
         </fieldset>
 
         <!-- *************************************************************************
             How can we contact you, phone, email or both?
         -->
-        <legend><span>2</span>Email & Phone</legend>
+        <p><span>2</span>Email & Phone</p>
         <fieldset id="contact-data">
             <label for="email">Your Full Name</label><br>
             <input type="email" name="email" id="email" placeholder="Email Address"><br>
 
             <label for="phone">Phone Number</label><br>
-            <input type="phone" name="phone" id="phone" placeholder="Phone Number">
+            <input type="tel" name="phone" id="phone" placeholder="Phone Number">
         </fieldset>
 
         <!-- *************************************************************************
             New password and password confirmation
         -->
-        <legend><span>3</span> Passwords</legend>
+        <p><span>3</span> Passwords</p>
         <fieldset id="passwords">
             <label for="password">Password</label><br>
             <input type="password" name="password" id="password" placeholder="Password"><br>
@@ -66,7 +66,7 @@
 
             <div>
                 <input type="checkbox" name="termspolicy" id="termspolicy">
-                <label for="">You agree to our Terms and Policy</label>
+                <label for="termspolicy">You agree to our Terms and Policy</label>
             </div>
         </fieldset>
 
